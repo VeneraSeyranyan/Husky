@@ -1,0 +1,125 @@
+body {
+    background: #E5E5E5;
+}
+
+* {
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 453px;
+    height: 600px;
+    left: 750px;
+    top: 176px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(2, 46, 99, 0.06);
+    border-radius: 30px;
+}
+.sign {
+    position: absolute;
+    top: 20px;
+    left: 145px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.mail label {
+    position: absolute;
+    width: 118px;
+    height: 36px;
+    left: 50px;
+    top: 127px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #B14EE0;
+}
+
+.mail input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 50px;
+    top: 148px;
+    background: #FFFFFF;
+    border: 1px solid #B14EE0;
+    border-radius: 12px;
+}
+
+.mt-4 label {
+    position: absolute;
+    width: 118px;
+    height: 36px;
+    left: 50px;
+    top: 235px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #B3B3B3;
+}
+
+.mt-4 input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 50px;
+    top: 256px;
+    background: #FFFFFF;
+    border: 1px solid #D3D1D1;
+    border-radius: 12px;
+}
+
+.bottom {
+    justify-items: center;
+    justify-content: flex-end;
+    margin-top: 16px;
+    flex: 1 1 0%;
+}
+
+.bottom a {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 270px;
+    top: 332px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #B14EE0;
+}
+
+.ml-3 {
+    position: absolute;
+    background: #B14EE0;
+    border-radius: 12px;
+    width: 333px;
+    height: 46px;
+    left: 40px;
+    top: 373px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.ml-k a{
+    position: absolute;
+    width: 69px;
+    height: 22px;
+    left: 177px;
+    top: 464px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}

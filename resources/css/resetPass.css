@@ -1,0 +1,100 @@
+.rectangleReset{
+    position: absolute;
+    width: 453px;
+    height: 507px;
+    left: 750px;
+    top: 258px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(2, 46, 99, 0.06);
+    border-radius: 30px;
+}
+.title{
+    position: absolute;
+    width: 362px;
+    height: 33px;
+    left: 64px;
+    top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.newpass label {
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    left: 53px;
+    top: 116px;
+    color: #B3B3B3;
+}
+.newpass input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 53px;
+    top: 136px;
+    background: #FFFFFF;
+    border: 1px solid #D3D1D1;
+    border-radius: 12px;
+}
+.passConfirm4 label {
+    position: absolute;
+    width: 180px;
+    height: 19px;
+    left: 53px;
+    top: 222px;
+    color: #B3B3B3;
+}
+.passConfirm4 input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 53px;
+    top: 241px;
+    background: #FFFFFF;
+    border: 1px solid #D3D1D1;
+    border-radius: 12px;
+}
+.save {
+    position: absolute;
+    background: #B14EE0;
+    border-radius: 12px;
+    width: 333px;
+    height: 46px;
+    left: 53px;
+    top: 331px;
+}
+.savefont{
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    left: 136px;
+    top: 6px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.signin a {
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    left: 172px;
+    top: 419px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
