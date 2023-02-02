@@ -11,6 +11,12 @@
             <!-- Password Reset Token -->
             <input type="hidden" name="token" value="{{ $request->route('token') }}">
 
+                <!-- add email -->
+                <div class="addemail">
+                    <x-input-label :value="__('Email')" />
+                    <x-text-input class="block mt-1 w-full" type="email" name="email" :value="old('email', $request->email)" required autofocus />
+                    <x-input-error :messages="$errors->get('email')"></x-input-error>
+                </div>
             <!-- New Password -->
             <div class="newpass">
                 <x-input-label for="password" :value="__('New Password')" />

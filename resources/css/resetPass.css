@@ -1,9 +1,9 @@
 .rectangleReset{
     position: absolute;
-    width: 453px;
-    height: 507px;
-    left: 750px;
-    top: 258px;
+    width: 400px;
+    height: 552px;
+    left: 450px;
+    top: 25px;
 
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(2, 46, 99, 0.06);
@@ -13,8 +13,8 @@
     position: absolute;
     width: 362px;
     height: 33px;
-    left: 64px;
-    top: 32px;
+    left: 47px;
+    top: 49px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -22,13 +22,31 @@
     line-height: 33px;
     color: #000000;
 }
-
-.newpass label {
+.addemail label{
     position: absolute;
     width: 120px;
     height: 19px;
-    left: 53px;
+    left: 35px;
     top: 116px;
+    color: #B3B3B3;
+}
+.addemail input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 35px;
+    top: 136px;
+    background: #FFFFFF;
+    border: 1px solid #D3D1D1;
+    border-radius: 12px;
+}
+.newpass label {
+    position: absolute;
+    width: 180px;
+    height: 19px;
+    left: 35px;
+    top: 222px;
     color: #B3B3B3;
 }
 .newpass input{
@@ -36,8 +54,8 @@
     position: absolute;
     width: 333px;
     height: 46px;
-    left: 53px;
-    top: 136px;
+    left: 35px;
+    top: 241px;
     background: #FFFFFF;
     border: 1px solid #D3D1D1;
     border-radius: 12px;
@@ -46,8 +64,8 @@
     position: absolute;
     width: 180px;
     height: 19px;
-    left: 53px;
-    top: 222px;
+    left: 35px;
+    top: 332px;
     color: #B3B3B3;
 }
 .passConfirm4 input{
@@ -55,8 +73,8 @@
     position: absolute;
     width: 333px;
     height: 46px;
-    left: 53px;
-    top: 241px;
+    left: 35px;
+    top: 350px;
     background: #FFFFFF;
     border: 1px solid #D3D1D1;
     border-radius: 12px;
@@ -67,15 +85,15 @@
     border-radius: 12px;
     width: 333px;
     height: 46px;
-    left: 53px;
-    top: 331px;
+    left: 35px;
+    top: 435px;
 }
 .savefont{
     position: absolute;
     width: 33px;
     height: 19px;
     left: 136px;
-    top: 6px;
+    top: 10px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -88,8 +106,8 @@
     position: absolute;
     width: 100px;
     height: 22px;
-    left: 172px;
-    top: 419px;
+    left: 145px;
+    top: 500px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 800;

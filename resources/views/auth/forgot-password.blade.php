@@ -11,8 +11,8 @@
             <div class="forgotpass"> FORGOT PASSWORD </div>
             <!-- Email Address -->
             <div class="EAdd">
-                <x-input-label for="email" :value="__('Email Address')" />
-                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input-label  :value="__('Email Address')" />
+                <x-text-input  class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
             </div>
 

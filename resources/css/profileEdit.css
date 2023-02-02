@@ -1,0 +1,130 @@
+
+.inputTexts input{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 12px;
+}
+.inputTexts label{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #B3B3B3;
+
+}
+.nameEdit{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 540px;
+    top: 290px;
+}
+.nameInput {
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: -7px;
+    top: 22px;
+}
+.lastN{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 540px;
+    top: 380px;
+}
+#lastname{
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 530px;
+    top: 403px;
+}
+.email{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 540px;
+    top: 470px;
+}
+#email{
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 530px;
+    top: 490px;
+}
+.phoneEdit{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 540px;
+    top: 555px;
+}
+#phone{
+    position: absolute;
+    width: 333px;
+    height: 46px;
+    left: 530px;
+    top: 575px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 12px;
+}
+.cancel{
+    position: absolute;
+    border: 1px solid #DBDBDB;
+    border-radius: 12px;
+    width: 140px;
+    height: 46px;
+    left: 530px;
+    top: 660px;
+}
+.cancelFont{
+    position: absolute;
+    margin-top: -676px;
+    margin-left: 42px;
+    top: 690px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #818181;
+}
+.saveEdit{
+    position: absolute;
+    background: #B14EE0;
+    border-radius: 12px;
+    width: 140px;
+    height: 46px;
+    left: 720px;
+    top: 660px;
+}
+.saveEditFont{
+    position: absolute;
+    margin-top: -676px;
+    margin-left: 51px;
+    top: 690px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*.logOut{*/
+/*    height: 22px;*/
+/*    left: 902px;*/
+/*    top: 749px;*/
+
+/*}*/

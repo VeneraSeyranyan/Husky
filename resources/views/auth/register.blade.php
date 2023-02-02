@@ -15,16 +15,16 @@
             </div>
             <!-- Last Name -->
             <div class="lastName">
-                <x-input-label for="lastname" :value="__('Last Name')" />
-                <x-text-input id="lastname" class="block mt-1 w-full" type="text" name="lastname" :value="old('lastname')" required autofocus />
+                <x-input-label :value="__('Last Name')" />
+                <x-text-input  class="block mt-1 w-full" type="text" name="lastname" :value="old('lastname')" required autofocus />
                 <x-input-error :messages="$errors->get('lastname')" class="mt-2" />
             </div>
 
             <!-- Email Address -->
 {{--            <div class="mt-4">--}}
             <div class="emailAdd">
-                <x-input-label for="email" :value="__('Email')" />
-                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-input-label  :value="__('Email')" />
+                <x-text-input  class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
             </div>
 
@@ -37,15 +37,12 @@
             </div>
 
 {{--            <!-- Confirm Password -->--}}
-{{--       change the class name     <div class="mt-4">--}}
             <div class="confPass">
                 <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
                 <x-text-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required />
                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
             </div>
-
-{{--            <div class="flex items-center justify-end mt-4">--}}
-            <div class="forgot">
+                <div class="forgot">
 
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                        href="{{ route('password.request') }}">
